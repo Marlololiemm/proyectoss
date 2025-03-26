@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imagenes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="galeria">
+    <h1>GALERIA DE IMAGENES</h1>
+    <div class="imagen-container">
+      <img id="Imagen" src="cafe1.jpg" alt="Imagen">
+    </div>
+    <div class="botones">
+      <button onclick="cambiarImagen(-1)">Anterior</button>
+      <button onclick="cambiarImagen(1)">Siguiente</button>
+    </div>
+    <p>imagen <span id="contador">1</span> de <span id="total">3</span></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
