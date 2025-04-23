@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #e7e1da, #c0b5a9, #bfaf9c);
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+}
+.contenedor{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow:  0 4px 10pc rgba(0, 0, 0, 0.3);
+}
+.tiempo{
+  font-size: 3rem;
+  margin-top: 20px;
+}
+.botones button{
+  background-color: rgb(102, 91, 81);
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.botones button:hover{
+  background: rgb(96, 75, 59);
+}
