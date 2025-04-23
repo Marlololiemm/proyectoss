@@ -1,0 +1,82 @@
+body{
+font-family: 'Times New Roman', Times, serif;
+background-color: #a29588;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+}
+.todo-container{
+  background-color: #cfc6be;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+h1{
+  color: #583317;
+}
+input{
+  width: 80%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button{
+  padding: 10px;
+  font-size: 16px;
+  background-color: #fcf3ea;
+  color: #583418;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #ddd4cc;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+}
+li{
+  background-color: #cfc6be;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+li.completada{
+  background-color: #a29588;
+  text-decoration: line-through;
+}
+button-eliminar{
+  background-color: rgb(254, 132, 132);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button.eliminar{
+  background-color: rgb(231, 128, 128);
+}
+button-pendiente{
+  background-color: rgb(158, 68, 68);
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button.pendiente{
+  background-color: rgb(200, 239, 209);
+}
+select{
+  background-color: #cfc6be;
+}
+.button{
+  align-items: center;
+}
